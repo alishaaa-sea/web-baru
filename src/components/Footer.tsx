@@ -10,7 +10,7 @@ export default function Footer() {
                             <span className="font-bold text-xl tracking-tight text-white">ASMAT</span>
                         </div>
                         <p className="text-gray-400 text-sm mb-6">
-                            Asosiasi Mahasiswa Matematika Terapan Universitas Diponegoro. Membangun sinergi untuk matematika yang lebih membumi.
+                            Asosiasi Matematika Terapan Universitas Diponegoro.
                         </p>
                     </div>
                     <div className="col-span-1">
@@ -24,25 +24,22 @@ export default function Footer() {
                     <div className="col-span-1">
                         <h4 className="text-lg font-bold mb-4">Contact</h4>
                         <ul className="space-y-2 text-sm text-gray-400">
-                            <li className="flex items-center gap-2"><span className="material-icons text-xs text-primary">email</span> asmat@undip.ac.id</li>
+                            <li className="flex items-center gap-2"><span className="material-icons text-xs text-primary">email</span> biroasmat.undip@gmail.com</li>
                             <li className="flex items-center gap-2"><span className="material-icons text-xs text-primary">location_on</span> Gedung F, FSM Undip</li>
                         </ul>
                     </div>
                     <div className="col-span-1">
                         <h4 className="text-lg font-bold mb-4">Connect</h4>
                         <div className="flex gap-4">
-                            <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition text-white">
-                                <span className="text-sm font-bold">IG</span>
+                            <a href="https://instagram/asmatundip" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition text-white">
+                                <span className="text-sm font-bold">Instagram</span>
                             </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition text-white">
-                                <span className="text-sm font-bold">LN</span>
-                            </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition text-white">
-                                <span className="text-sm font-bold">YT</span>
+                            <a href="tiktok.com/@asmatundip" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition text-white">
+                                <span className="text-sm font-bold">Tiktok</span>
                             </a>
                         </div>
                         <div className="mt-6">
-                            <a href="#" className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-primary to-primary-dark hover:from-primary-light hover:to-primary text-white px-4 py-2 rounded-lg text-sm font-medium w-full transition shadow-lg shadow-primary/20">
+                            <a href="https://wa.me/6288216760762" className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-primary to-primary-dark hover:from-primary-light hover:to-primary text-white px-4 py-2 rounded-lg text-sm font-medium w-full transition shadow-lg shadow-primary/20">
                                 <span className="material-icons text-sm">chat</span> WhatsApp Us
                             </a>
                         </div>
@@ -50,7 +47,7 @@ export default function Footer() {
                 </div>
                 <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
                     <p>© 2026 ASMAT AKSENTUASI. All rights reserved.</p>
-                    <p>Designed with <span className="text-primary">♥</span> for Math Students</p>
+                    <p>Designed with <span className="text-primary">♥</span> for Asmate</p>
                 </div>
             </div>
         </footer>

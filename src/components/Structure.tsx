@@ -30,7 +30,9 @@ export default function Structure() {
                                         <img alt="Alisha Rizki Ainiyah" className="w-full h-auto rounded-xl" src="/img/Foto Formal.jpeg" />
                                     </DialogContent>
                                 </Dialog>
+                            <a href="https://instagram.com/alishaarzkii" target="_blank" rel="noopener noreferrer">
                                 <h3 className="text-xl font-bold text-slate-900 dark:text-white">Alisha Rizki Ainiyah</h3>
+                            </a>
                                 <p className="text-primary font-bold uppercase tracking-wide text-xs">Ketua Umum</p>
                             </div>
                             <div className="hidden md:block h-32 w-px bg-primary/20"></div>
