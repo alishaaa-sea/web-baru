@@ -153,7 +153,7 @@ export default function Structure() {
                             <DivisionCard
                                 icon="menu_book"
                                 name="Akademik"
-                                description="Fokus pada pengembangan wawasan keilmuan dan bantuan akademik mahasiswa."
+                                description="Fokus pada peningkatan kualitas keilmuan dan kemampuan akademik mahasiswa matematika."
                                 ketua={{ name: "Mayla Nazid Nafi'a", img: "/img/foto mayla.jpeg" }}
                                 staff={[
                                     { name: "M. Ishmatur Roziq", img: "/img/foto roziq.jpg" },
@@ -170,7 +170,7 @@ export default function Structure() {
                             <DivisionCard
                                 icon="palette"
                                 name="Media Kreatif"
-                                description="Mengelola branding visual, publikasi media sosial, dan dokumentasi kegiatan."
+                                description="Fokus dalam mengelola seluruh aspek pbulikasi, dokumentasi, dan kreativitas media di ASMAT."
                                 ketua={{ name: "Zulfa Friyaljihanisa", img: "/img/foto zulfa.png" }}
                                 staff={[
                                     { name: "Dara Mulia Ayundita", img: "/img/foto dara.jpg" },
@@ -178,14 +178,14 @@ export default function Structure() {
                                     { name: "Helen Mareta Nauli", initials: "HM" },
                                     { name: "Staf Muda", isPlaceholder: true, colSpan: 3 }
                                 ]}
-                                proker={["Buletin", "Majalah Dinding", "Media Sosial", "Studi Banding"]}
+                                proker={["Buletin", "Majalah Dinding", "Media Sosial", "Pelatihan Desain Internal"]}
                             />
 
                             {/* Pengembangan */}
                             <DivisionCard
                                 icon="trending_up"
                                 name="Pengembangan"
-                                description="Bertanggung jawab atas kaderisasi dan pengembangan sumber daya mahasiswa."
+                                description="Fokus pada peningkatan kapasitas dan minat mahasiswa serta perluasan kontribusi organisasi melalui pengabdian masyarakat."
                                 ketua={{ name: "Nazwa Syahrani", img: "/img/foto nazwa.jpeg" }}
                                 staff={[
                                     { name: "Nasywa Dhiya Ananfitto", img: "/img/foto nasywa.png" },
@@ -201,7 +201,7 @@ export default function Structure() {
                             <DivisionCard
                                 icon="science"
                                 name="Riset"
-                                description="Mewadahi minat bakat dalam penelitian, PKM, dan karya tulis ilmiah."
+                                description="Fokus pada pengembangan minat dan bakal riset mahasiswa melalui pelatihan, pendampingan, dan penyediaan ruang praktik riset."
                                 ketua={{ name: "Saskia Aulia Azzahra", img: "/img/foto saskia.jpeg" }}
                                 staff={[
                                     { name: "Khomsatul Yunita", img: "/img/foto nita.jpeg" },

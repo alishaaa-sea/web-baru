@@ -31,10 +31,10 @@ export default function Footer() {
                     <div className="col-span-1">
                         <h4 className="text-lg font-bold mb-4">Connect</h4>
                         <div className="flex gap-4">
-                            <a href="https://instagram/asmatundip" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition text-white">
+                            <a href="https://instagram.com/asmatundip" className="inline-flex px-4 py-2 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition text-white">
                                 <span className="text-sm font-bold">Instagram</span>
                             </a>
-                            <a href="tiktok.com/@asmatundip" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition text-white">
+                            <a href="tiktok.com/@asmatundip" className="inline-flex px-4 py-2 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition text-white">
                                 <span className="text-sm font-bold">Tiktok</span>
                             </a>
                         </div>
