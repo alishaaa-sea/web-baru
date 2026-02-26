@@ -160,12 +160,12 @@ export default function Structure() {
                                     { name: "Faturohman Setia Budi", img: "/img/foto fatur.jpg" },
                                     { name: "Lusita Safitri", img: "/img/foto lusi.jpg" },
                                     { name: "Karolyn Alvani", img: "/img/foto karolyn.jpg" },
-                                    { name: "Muhammad Daniez Julio Darmawan", img: "/img/foto daniez.jpg" }
-                                    { name: "M. Ishmatur Roziq", img: "/img/foto roziq.jpg" },
-                                    { name: "Faturohman Setia Budi", img: "/img/foto fatur.jpg" },
-                                    { name: "Lusita Safitri", img: "/img/foto lusi.jpg" },
-                                    { name: "Karolyn Alvani", img: "/img/foto karolyn.jpg" },
-                                    { name: "Muhammad Daniez Julio Darmawan", img: "/img/foto daniez.jpg" }
+                                    { name: "Muhammad Daniez Julio Darmawan", img: "/img/foto daniez.jpg" },
+                                    { name: "Muhammad Fadel Arnanda", img: "/img/foto fadel.jpg" },
+                                    { name: "Muhammad Ihsan", img: "/img/foto ihsan.jpg" },
+                                    { name: "Ria Aulia", img: "/img/foto riaaulia.jpg" },
+                                    { name: "Yazid Gharis Fargani", img: "/img/foto yazid.jpg" },
+                                    { name: "Erlinda Puspita Hapsari", img: "/img/foto erlinda.jpg" }
                                 ]}
                                 proker={["Asistensi Internal", "Asistensi Mata Kuliah", "Modul Soal"]}
                             />
@@ -179,8 +179,13 @@ export default function Structure() {
                                 staff={[
                                     { name: "Dara Mulia Ayundita", img: "/img/foto dara.jpg" },
                                     { name: "Nawasyarifah", img: "/img/foto nawa.jpg" },
-                                    { name: "Helen Mareta Nauli", initials: "HM" },
-                                    { name: "Staf Muda", isPlaceholder: true, colSpan: 3 }
+                                    { name: "Helen Mareta Nauli", img: "/img/foto nauli.JPEG" },
+                                    { name: "Rahma Fitrianita", img: "/img/foto rahma.jpg" },
+                                    { name: "Imelda Nuris Syifa", img: "/img/foto imelda.jpg" },
+                                    { name: "Moza Shifra Putri Hermawan", img: "/img/foto moza.jpg" },
+                                    { name: "Intan Pramestya Maya Daya", img: "/img/foto intan pram.JPEG" },
+                                    { name: "Nuriska Putri Aulia", img: "/img/foto nuriska.jpg" },
+                                    { name: "Mutiara O. Sihombing", img: "/img/foto mutiara.jpg" }
                                 ]}
                                 proker={["Buletin", "Majalah Dinding", "Media Sosial", "Pelatihan Desain Internal"]}
                             />
@@ -195,8 +200,12 @@ export default function Structure() {
                                     { name: "Nasywa Dhiya Ananfitto", img: "/img/foto nasywa.png" },
                                     { name: "Amalia Mecca Zasaid", img: "/img/foto mecca.jpg" },
                                     { name: "Aliah Mabruroh", img: "/img/foto aliah.JPG" },
-                                    { name: "Zhahra Bunga Tri Hapsari", img: "/img/foto zara.jpeg" },
-                                    { name: "Staf Muda", isPlaceholder: true, colSpan: 2 }
+                                    { name: "Zhahra Bunga Tri Hapsari", img: "/img/foto zara.jpg" },
+                                    { name: "Lindi Alviolina Setiawan", img: "/img/foto lindi.png" },
+                                    { name: "Aulya Shalsabhila Eka Mustafa", img: "/img/foto aulya.jpg" },
+                                    { name: "Hepi Sasmita", img: "/img/foto hepi.jpg"},
+                                    { name: "Mujiono", img: "/img/foto jion.JPG" },
+                                    { name: "Raditya BAgaskara", img: "/img/foto radit.jpg" },
                                 ]}
                                 proker={["Pelatihan Internal", "Klinik Matematika", "Seminar Skripsi", "Seminar PKL"]}
                             />
@@ -208,10 +217,15 @@ export default function Structure() {
                                 description="Fokus pada pengembangan minat dan bakal riset mahasiswa melalui pelatihan, pendampingan, dan penyediaan ruang praktik riset."
                                 ketua={{ name: "Saskia Aulia Azzahra", img: "/img/foto saskia.jpeg" }}
                                 staff={[
-                                    { name: "Khomsatul Yunita", img: "/img/foto nita.jpeg" },
+                                    { name: "Khomsatul Yunita", img: "/img/foto nita.jpg" },
                                     { name: "Anni Miftahu Rohmah", img: "/img/foto anni.jpg" },
-                                    { name: "Habib Hayub Alfaraby", img: "/img/foto hayub.jpeg" },
-                                    { name: "Staf Muda", isPlaceholder: true, colSpan: 3 }
+                                    { name: "Habib Hayub Alfaraby", img: "/img/foto hayub.jpg" },
+                                    { name: "Intan Tama Jessica Purba", img: "/img/foto intan tama.jpg" },
+                                    { name: "Jesika Traini Manurung", img: "/img/foto jesika.jpg" },
+                                    { name: "Nadia Balqis", img: "/img/foto Nadia.jpg" },
+                                    { name: "Lusiana Kezia Arla Gracyani", img: "/img/foto lusiana.jpg" },
+                                    { name: "Muhammad Yusuf Al Malik", img: "/img/foto yusuf.jpg" },
+                                    { name: "Muhammad Dani Hibatullah", img: "/img/foto dani.jpg" }
                                 ]}
                                 proker={["Kelas Riset", "Pelatihan Kakak Pembimbing", "Pelatihan PKM"]}
                             />
