@@ -88,8 +88,8 @@ export default function Structure() {
                                         <div className="w-20 h-20 rounded-full bg-gray-200 border-2 border-dashed border-gray-300 flex items-center justify-center mb-2 mx-auto">
                                             <span className="material-icons text-gray-400">person</span>
                                         </div>
-                                        <p className="text-xs font-bold text-slate-800 dark:text-slate-200">Staf Muda</p>
-                                        <p className="text-[10px] text-primary uppercase">Staff</p>
+                                        <p className="text-xs font-bold text-slate-800 dark:text-slate-200">Azizah Rahma Yonita</p>
+                                        <p className="text-[10px] text-primary uppercase">Sekretaris 2</p>
                                     </div>
                                 </div>
                             </div>
@@ -126,8 +126,8 @@ export default function Structure() {
                                         <div className="w-20 h-20 rounded-full bg-gray-200 border-2 border-dashed border-gray-300 flex items-center justify-center mb-2 mx-auto">
                                             <span className="material-icons text-gray-400">person</span>
                                         </div>
-                                        <p className="text-xs font-bold text-slate-800 dark:text-slate-200">Staf Muda</p>
-                                        <p className="text-[10px] text-primary uppercase">Staff</p>
+                                        <p className="text-xs font-bold text-slate-800 dark:text-slate-200">Haura Rasicha Dzaky</p>
+                                        <p className="text-[10px] text-primary uppercase">Bendahara 2</p>
                                     </div>
                                 </div>
                             </div>
@@ -160,8 +160,12 @@ export default function Structure() {
                                     { name: "Faturohman Setia Budi", img: "/img/foto fatur.jpg" },
                                     { name: "Lusita Safitri", img: "/img/foto lusi.jpg" },
                                     { name: "Karolyn Alvani", img: "/img/foto karolyn.jpg" },
-                                    { name: "Muhammad Daniez Julio Darmawan", img: "/img/foto daniez.jpg" },
-                                    { name: "Staf Muda", isPlaceholder: true }
+                                    { name: "Muhammad Daniez Julio Darmawan", img: "/img/foto daniez.jpg" }
+                                    { name: "M. Ishmatur Roziq", img: "/img/foto roziq.jpg" },
+                                    { name: "Faturohman Setia Budi", img: "/img/foto fatur.jpg" },
+                                    { name: "Lusita Safitri", img: "/img/foto lusi.jpg" },
+                                    { name: "Karolyn Alvani", img: "/img/foto karolyn.jpg" },
+                                    { name: "Muhammad Daniez Julio Darmawan", img: "/img/foto daniez.jpg" }
                                 ]}
                                 proker={["Asistensi Internal", "Asistensi Mata Kuliah", "Modul Soal"]}
                             />
