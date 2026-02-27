@@ -163,8 +163,8 @@ export default function Structure() {
                                     { name: "Muhammad Daniez Julio Darmawan", img: "/img/foto daniez.jpg" },
                                     { name: "Muhammad Fadel Arnanda", img: "/img/foto fadel.jpg" },
                                     { name: "Muhammad Ihsan", img: "/img/foto ihsan.jpg" },
-                                    { name: "Ria Aulia", img: "/img/foto riaaulia.jpg" },
-                                    { name: "Yazid Gharis Fargani", img: "/img/foto yazid.jpg" },
+                                    { name: "Ria Aulia", img: "/img/foto riaaulia.png" },
+                                    { name: "Yazid Gharis Fargani", img: "/img/foto yazid.jpeg" },
                                     { name: "Erlinda Puspita Hapsari", img: "/img/foto erlinda.jpg" }
                                 ]}
                                 proker={["Asistensi Internal", "Asistensi Mata Kuliah", "Modul Soal"]}
@@ -179,11 +179,11 @@ export default function Structure() {
                                 staff={[
                                     { name: "Dara Mulia Ayundita", img: "/img/foto dara.jpg" },
                                     { name: "Nawasyarifah", img: "/img/foto nawa.jpg" },
-                                    { name: "Helen Mareta Nauli", img: "/img/foto nauli.JPEG" },
+                                    { name: "Helen Mareta Nauli", img: "/img/foto nauli.jpeg" },
                                     { name: "Rahma Fitrianita", img: "/img/foto rahma.jpg" },
                                     { name: "Imelda Nuris Syifa", img: "/img/foto imelda.jpg" },
                                     { name: "Moza Shifra Putri Hermawan", img: "/img/foto moza.jpg" },
-                                    { name: "Intan Pramestya Maya Daya", img: "/img/foto intan pram.JPEG" },
+                                    { name: "Intan Pramestya Maya Daya", img: "/img/foto intan pram.png" },
                                     { name: "Nuriska Putri Aulia", img: "/img/foto nuriska.jpg" },
                                     { name: "Mutiara O. Sihombing", img: "/img/foto mutiara.jpg" }
                                 ]}
@@ -223,7 +223,7 @@ export default function Structure() {
                                     { name: "Intan Tama Jessica Purba", img: "/img/foto intan tama.jpg" },
                                     { name: "Jesika Traini Manurung", img: "/img/foto jesika.jpg" },
                                     { name: "Nadia Balqis", img: "/img/foto Nadia.jpg" },
-                                    { name: "Lusiana Kezia Arla Gracyani", img: "/img/foto lusiana.jpg" },
+                                    { name: "Lusiana Kezia Arla Gracyani", img: "/img/foto lusiana.png" },
                                     { name: "Muhammad Yusuf Al Malik", img: "/img/foto yusuf.jpg" },
                                     { name: "Muhammad Dani Hibatullah", img: "/img/foto dani.jpg" }
                                 ]}
