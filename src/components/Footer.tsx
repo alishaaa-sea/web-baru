@@ -34,7 +34,7 @@ export default function Footer() {
                             <a href="https://instagram.com/asmatundip" className="inline-flex px-4 py-2 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition text-white">
                                 <span className="text-sm font-bold">Instagram</span>
                             </a>
-                            <a href="https://www.tiktok.com/asmatundip" className="inline-flex px-4 py-2 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition text-white">
+                            <a href="https://www.tiktok.com/@asmatundip" className="inline-flex px-4 py-2 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition text-white">
                                 <span className="text-sm font-bold">Tiktok</span>
                             </a>
                         </div>
