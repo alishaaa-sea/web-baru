@@ -31,15 +31,18 @@ export default function Navbar() {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex space-x-8 items-center">
-                        {["Hero", "About", "Vision", "Structure", "Programs"].map((item) => (
-                            <button
-                                key={item}
-                                onClick={() => scrollToSection(item.toLowerCase())}
-                                className="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary-light px-3 py-2 text-sm font-medium transition-colors"
-                            >
-                                {item === "Hero" ? "Home" : item}
-                            </button>
-                        ))}
+                        {["Hero", "About", "Vision", "Structure", "Programs", "Gallery"].map((item) => {
+                            const targetId = (item === "Programs" || item === "Gallery") ? "programs-gallery" : item.toLowerCase();
+                            return (
+                                <button
+                                    key={item}
+                                    onClick={() => scrollToSection(targetId)}
+                                    className="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-primary-light px-3 py-2 text-sm font-medium transition-colors"
+                                >
+                                    {item === "Hero" ? "Home" : item}
+                                </button>
+                            );
+                        })}
                         <ThemeToggle />
                         <Button
                             onClick={() => scrollToSection("contact")}
@@ -63,16 +66,19 @@ export default function Navbar() {
                                         <span className="font-bold text-lg dark:text-white">Menu</span>
                                         <ThemeToggle />
                                     </div>
-                                    {["Hero", "About", "Vision", "Structure", "Programs", "Contact"].map((item) => (
-                                        <button
-                                            key={item}
-                                            onClick={() => scrollToSection(item.toLowerCase())}
-                                            className="text-lg font-medium text-slate-800 dark:text-slate-200 hover:text-primary text-left transition-colors flex items-center gap-3 group"
-                                        >
-                                            <span className="w-1.5 h-1.5 rounded-full bg-primary/30 group-hover:bg-primary transition-colors"></span>
-                                            {item === "Hero" ? "Home" : item}
-                                        </button>
-                                    ))}
+                                    {["Hero", "About", "Vision", "Structure", "Programs", "Gallery", "Contact"].map((item) => {
+                                        const targetId = (item === "Programs" || item === "Gallery") ? "programs-gallery" : item.toLowerCase();
+                                        return (
+                                            <button
+                                                key={item}
+                                                onClick={() => scrollToSection(targetId)}
+                                                className="text-lg font-medium text-slate-800 dark:text-slate-200 hover:text-primary text-left transition-colors flex items-center gap-3 group"
+                                            >
+                                                <span className="w-1.5 h-1.5 rounded-full bg-primary/30 group-hover:bg-primary transition-colors"></span>
+                                                {item === "Hero" ? "Home" : item}
+                                            </button>
+                                        );
+                                    })}
                                 </div>
                             </SheetContent>
                         </Sheet>

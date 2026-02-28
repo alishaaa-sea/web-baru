@@ -30,9 +30,9 @@ export default function Structure() {
                                         <img alt="Alisha Rizki Ainiyah" className="w-full h-auto rounded-xl" src="/img/Foto Formal.jpeg" />
                                     </DialogContent>
                                 </Dialog>
-                            <a href="https://instagram.com/alishaarzkii" target="_blank" rel="noopener noreferrer">
-                                <h3 className="text-xl font-bold text-slate-900 dark:text-white">Alisha Rizki Ainiyah</h3>
-                            </a>
+                                <a href="https://instagram.com/alishaarzkii" target="_blank" rel="noopener noreferrer">
+                                    <h3 className="text-xl font-bold text-slate-900 dark:text-white">Alisha Rizki Ainiyah</h3>
+                                </a>
                                 <p className="text-primary font-bold uppercase tracking-wide text-xs">Ketua Umum</p>
                             </div>
                             <div className="hidden md:block h-32 w-px bg-primary/20"></div>
@@ -84,10 +84,17 @@ export default function Structure() {
                                         <p className="text-xs font-bold text-slate-800 dark:text-slate-200">Tri Maida Azzahra</p>
                                         <p className="text-[10px] text-primary uppercase">Sekretaris Umum</p>
                                     </div>
-                                    <div className="text-center opacity-60">
-                                        <div className="w-20 h-20 rounded-full bg-gray-200 border-2 border-dashed border-gray-300 flex items-center justify-center mb-2 mx-auto">
-                                            <span className="material-icons text-gray-400">person</span>
-                                        </div>
+                                    <div className="text-center">
+                                        <Dialog>
+                                            <DialogTrigger asChild>
+                                                <div className="w-20 h-20 rounded-full border-2 border-primary/20 overflow-hidden mb-2 mx-auto cursor-pointer hover:scale-105 transition-transform">
+                                                    <img alt="Azizah Rahma Yonita" className="w-full h-full object-cover" src="/img/foto zaza.jpg" />
+                                                </div>
+                                            </DialogTrigger>
+                                            <DialogContent className="max-w-md bg-transparent border-none p-0 shadow-none">
+                                                <img alt="Azizah Rahma Yonita" className="w-full h-auto rounded-xl" src="/img/foto zaza.jpg" />
+                                            </DialogContent>
+                                        </Dialog>
                                         <p className="text-xs font-bold text-slate-800 dark:text-slate-200">Azizah Rahma Yonita</p>
                                         <p className="text-[10px] text-primary uppercase">Sekretaris 2</p>
                                     </div>
@@ -122,10 +129,17 @@ export default function Structure() {
                                         <p className="text-xs font-bold text-slate-800 dark:text-slate-200">Rizqa Aulia</p>
                                         <p className="text-[10px] text-primary uppercase">Bendahara Umum</p>
                                     </div>
-                                    <div className="text-center opacity-60">
-                                        <div className="w-20 h-20 rounded-full bg-gray-200 border-2 border-dashed border-gray-300 flex items-center justify-center mb-2 mx-auto">
-                                            <span className="material-icons text-gray-400">person</span>
-                                        </div>
+                                    <div className="text-center">
+                                        <Dialog>
+                                            <DialogTrigger asChild>
+                                                <div className="w-20 h-20 rounded-full border-2 border-primary/20 overflow-hidden mb-2 mx-auto cursor-pointer hover:scale-105 transition-transform">
+                                                    <img alt="Haura Rasicha Dzaky" className="w-full h-full object-cover" src="/img/foto haura.jpg" />
+                                                </div>
+                                            </DialogTrigger>
+                                            <DialogContent className="max-w-md bg-transparent border-none p-0 shadow-none">
+                                                <img alt="Haura Rasicha Dzaky" className="w-full h-auto rounded-xl" src="/img/foto haura.jpg" />
+                                            </DialogContent>
+                                        </Dialog>
                                         <p className="text-xs font-bold text-slate-800 dark:text-slate-200">Haura Rasicha Dzaky</p>
                                         <p className="text-[10px] text-primary uppercase">Bendahara 2</p>
                                     </div>
@@ -160,7 +174,9 @@ export default function Structure() {
                                     { name: "Faturohman Setia Budi", img: "/img/foto fatur.jpg" },
                                     { name: "Lusita Safitri", img: "/img/foto lusi.jpg" },
                                     { name: "Karolyn Alvani", img: "/img/foto karolyn.jpg" },
-                                    { name: "Muhammad Daniez Julio Darmawan", img: "/img/foto daniez.jpg" },
+                                    { name: "Muhammad Daniez Julio Darmawan", img: "/img/foto daniez.jpg" }
+                                ]}
+                                staffmuda={[
                                     { name: "Muhammad Fadel Arnanda", img: "/img/foto fadel.jpg" },
                                     { name: "Muhammad Ihsan", img: "/img/foto ihsan.jpg" },
                                     { name: "Ria Aulia", img: "/img/foto riaaulia.png" },
@@ -174,12 +190,14 @@ export default function Structure() {
                             <DivisionCard
                                 icon="palette"
                                 name="Media Kreatif"
-                                description="Fokus dalam mengelola seluruh aspek pbulikasi, dokumentasi, dan kreativitas media di ASMAT."
+                                description="Fokus dalam mengelola seluruh aspek publikasi, dokumentasi, dan kreativitas media di ASMAT."
                                 ketua={{ name: "Zulfa Friyaljihanisa", img: "/img/foto zulfa.png" }}
-                                staff={[
+                                staffahli={[
                                     { name: "Dara Mulia Ayundita", img: "/img/foto dara.jpg" },
                                     { name: "Nawasyarifah", img: "/img/foto nawa.jpg" },
-                                    { name: "Helen Mareta Nauli", img: "/img/foto nauli.jpeg" },
+                                    { name: "Helen Mareta Nauli", img: "/img/foto nauli.jpeg" }
+                                ]}
+                                staffmuda={[
                                     { name: "Rahma Fitrianita", img: "/img/foto rahma.jpg" },
                                     { name: "Imelda Nuris Syifa", img: "/img/foto imelda.jpg" },
                                     { name: "Moza Shifra Putri Hermawan", img: "/img/foto moza.jpg" },
@@ -196,16 +214,18 @@ export default function Structure() {
                                 name="Pengembangan"
                                 description="Fokus pada peningkatan kapasitas dan minat mahasiswa serta perluasan kontribusi organisasi melalui pengabdian masyarakat."
                                 ketua={{ name: "Nazwa Syahrani", img: "/img/foto nazwa.jpeg" }}
-                                staff={[
+                                staffahli={[
                                     { name: "Nasywa Dhiya Ananfitto", img: "/img/foto nasywa.png" },
                                     { name: "Amalia Mecca Zasaid", img: "/img/foto mecca.jpg" },
                                     { name: "Aliah Mabruroh", img: "/img/foto aliah.JPG" },
-                                    { name: "Zhahra Bunga Tri Hapsari", img: "/img/foto zara.jpg" },
-                                    { name: "Lindi Alviolina Setiawan", img: "/img/foto lindi.png" },
+                                    { name: "Zhahra Bunga Tri Hapsari", img: "/img/foto zara.jpg" }
+                                ]}
+                                staffmuda={[
+                                    { name: "Lindi Alviolina Setiawan", img: "/img/foto lindi.jpg" },
                                     { name: "Aulya Shalsabhila Eka Mustafa", img: "/img/foto aulya.jpg" },
-                                    { name: "Hepi Sasmita", img: "/img/foto hepi.jpg"},
-                                    { name: "Mujiono", img: "/img/foto jion.JPG" },
-                                    { name: "Raditya BAgaskara", img: "/img/foto radit.jpg" },
+                                    { name: "Hepi Sasmita", img: "/img/foto hepi.jpg" },
+                                    { name: "Mujiono", img: "/img/foto jion.jpg" },
+                                    { name: "Raditya BAgaskara", img: "/img/foto radit.jpg" }
                                 ]}
                                 proker={["Pelatihan Internal", "Klinik Matematika", "Seminar Skripsi", "Seminar PKL"]}
                             />
@@ -216,13 +236,15 @@ export default function Structure() {
                                 name="Riset"
                                 description="Fokus pada pengembangan minat dan bakal riset mahasiswa melalui pelatihan, pendampingan, dan penyediaan ruang praktik riset."
                                 ketua={{ name: "Saskia Aulia Azzahra", img: "/img/foto saskia.jpeg" }}
-                                staff={[
+                                staffahli={[
                                     { name: "Khomsatul Yunita", img: "/img/foto nita.jpg" },
                                     { name: "Anni Miftahu Rohmah", img: "/img/foto anni.jpg" },
                                     { name: "Habib Hayub Alfaraby", img: "/img/foto hayub.jpg" },
-                                    { name: "Intan Tama Jessica Purba", img: "/img/foto intan tama.jpg" },
+                                    { name: "Intan Tama Jessica Purba", img: "/img/foto intan tama.jpg" }
+                                ]}
+                                staffmuda={[
                                     { name: "Jesika Traini Manurung", img: "/img/foto jesika.jpg" },
-                                    { name: "Nadia Balqis", img: "/img/foto Nadia.jpg" },
+                                    { name: "Nadia Balqis", img: "/img/foto nadia.jpg" },
                                     { name: "Lusiana Kezia Arla Gracyani", img: "/img/foto lusiana.png" },
                                     { name: "Muhammad Yusuf Al Malik", img: "/img/foto yusuf.jpg" },
                                     { name: "Muhammad Dani Hibatullah", img: "/img/foto dani.jpg" }
@@ -237,7 +259,7 @@ export default function Structure() {
     );
 }
 
-function DivisionCard({ icon, name, description, ketua, staff, proker }: any) {
+function DivisionCard({ icon, name, description, ketua, staff, staffahli, staffmuda, proker }: any) {
     return (
         <div className="glass-card flex flex-col h-full rounded-2xl overflow-hidden border-t-4 border-t-primary shadow-lg hover:shadow-xl transition-all duration-300 group">
             <div className="bg-primary/5 p-6 pb-4 text-center border-b border-gray-100 dark:border-gray-800">
@@ -264,36 +286,39 @@ function DivisionCard({ icon, name, description, ketua, staff, proker }: any) {
                         <p className="font-bold text-sm text-slate-800 dark:text-slate-200">{ketua.name}</p>
                     </div>
                 </div>
-                <div>
-                    <p className="text-[10px] font-bold text-slate-400 uppercase mb-3 text-center tracking-wider">Staf Ahli</p>
-                    <div className="grid grid-cols-3 gap-y-4 gap-x-2 justify-items-center">
-                        {staff.map((s: any, idx: number) => (
-                            <div key={idx} className={`text-center group/staff ${s.colSpan ? `col-span-${s.colSpan}` : ''}`}>
-                                {s.isPlaceholder ? (
-                                    <div className="w-10 h-10 rounded-full bg-gray-100 border border-dashed border-gray-300 flex items-center justify-center mb-1 mx-auto">
-                                        <span className="material-icons text-gray-300 text-sm">person</span>
-                                    </div>
-                                ) : s.initials ? (
-                                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-1 mx-auto ring-2 ring-transparent group-hover/staff:ring-primary/30 transition-all text-primary font-bold text-xs cursor-pointer hover:bg-primary/20">
-                                        {s.initials}
-                                    </div>
-                                ) : (
-                                    <Dialog>
-                                        <DialogTrigger asChild>
-                                            <div className="w-10 h-10 rounded-full bg-gray-200 overflow-hidden mb-1 mx-auto ring-2 ring-transparent group-hover/staff:ring-primary/30 transition-all cursor-pointer hover:scale-110">
-                                                <img alt={s.name} className="w-full h-full object-cover" src={s.img} />
-                                            </div>
-                                        </DialogTrigger>
-                                        <DialogContent className="max-w-md bg-transparent border-none p-0 shadow-none">
-                                            <img alt={s.name} className="w-full h-auto rounded-xl" src={s.img} />
-                                        </DialogContent>
-                                    </Dialog>
-                                )}
-                                <p className={`text-[10px] font-medium ${s.isPlaceholder ? 'text-slate-500 italic' : 'text-slate-600 dark:text-slate-400'}`}>{s.name}</p>
-                            </div>
-                        ))}
+
+                {staff && (
+                    <div>
+                        <p className="text-[10px] font-bold text-slate-400 uppercase mb-3 text-center tracking-wider">Staf</p>
+                        <div className="grid grid-cols-3 gap-y-4 gap-x-2 justify-items-center">
+                            {staff.map((s: any, idx: number) => (
+                                <StaffItem key={idx} s={s} type="regular" />
+                            ))}
+                        </div>
                     </div>
-                </div>
+                )}
+
+                {staffahli && (
+                    <div>
+                        <p className="text-[10px] font-bold text-amber-500 uppercase mb-3 text-center tracking-wider">Staf Ahli</p>
+                        <div className="grid grid-cols-3 gap-y-4 gap-x-2 justify-items-center">
+                            {staffahli.map((s: any, idx: number) => (
+                                <StaffItem key={idx} s={s} type="ahli" />
+                            ))}
+                        </div>
+                    </div>
+                )}
+
+                {staffmuda && (
+                    <div>
+                        <p className="text-[10px] font-bold text-blue-500 uppercase mb-3 text-center tracking-wider">Staf Muda</p>
+                        <div className="grid grid-cols-3 gap-y-4 gap-x-2 justify-items-center">
+                            {staffmuda.map((s: any, idx: number) => (
+                                <StaffItem key={idx} s={s} type="muda" />
+                            ))}
+                        </div>
+                    </div>
+                )}
             </div>
             <div className="mt-auto p-4 pt-4 border-t border-gray-100 dark:border-gray-800 bg-gray-50/50 dark:bg-gray-800/30">
                 <p className="text-[10px] font-bold text-primary uppercase mb-2">Program Kerja</p>
@@ -303,6 +328,44 @@ function DivisionCard({ icon, name, description, ketua, staff, proker }: any) {
                     ))}
                 </div>
             </div>
+        </div>
+    );
+}
+
+function StaffItem({ s, type = "regular" }: { s: any, type?: "regular" | "ahli" | "muda" }) {
+    let ringColor = "ring-2 ring-transparent group-hover/staff:ring-primary/30";
+    if (type === "ahli") {
+        ringColor = "ring-2 ring-amber-400 shadow-md group-hover/staff:ring-amber-500";
+    } else if (type === "muda") {
+        ringColor = "ring-2 ring-blue-400 shadow-md group-hover/staff:ring-blue-500";
+    }
+
+    return (
+        <div className={`text-center group/staff relative ${s.colSpan ? `col-span-${s.colSpan}` : ''}`}>
+            {s.isPlaceholder ? (
+                <div className="w-10 h-10 rounded-full bg-gray-100 border border-dashed border-gray-300 flex items-center justify-center mb-1 mx-auto relative">
+                    <span className="material-icons text-gray-300 text-sm">person</span>
+                </div>
+            ) : s.initials ? (
+                <div className={`w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mb-1 mx-auto ${ringColor} transition-all text-primary font-bold text-xs cursor-pointer hover:bg-primary/20 relative`}>
+                    {s.initials}
+                </div>
+            ) : (
+                <Dialog>
+                    <DialogTrigger asChild>
+                        <div className={`w-10 h-10 rounded-full bg-gray-200 overflow-hidden mb-1 mx-auto ${ringColor} transition-all cursor-pointer hover:scale-110 relative`}>
+                            <img alt={s.name} className="w-full h-full object-cover" src={s.img} />
+                        </div>
+                    </DialogTrigger>
+                    <DialogContent className="max-w-md bg-transparent border-none p-0 shadow-none flex flex-col items-center">
+                        <img alt={s.name} className="w-full h-auto rounded-xl" src={s.img} />
+                        {type === "ahli" && <p className="text-center text-amber-400 font-bold mt-2 text-xs bg-black/60 py-1 rounded-full w-max px-4">Staf Ahli</p>}
+                        {type === "muda" && <p className="text-center text-blue-400 font-bold mt-2 text-xs bg-black/60 py-1 rounded-full w-max px-4">Staf Muda</p>}
+                    </DialogContent>
+                </Dialog>
+            )}
+
+            <p className={`text-[10px] font-medium leading-tight mt-1 ${s.isPlaceholder ? 'text-slate-500 italic' : 'text-slate-600 dark:text-slate-400'} px-1`}>{s.name}</p>
         </div>
     );
 }

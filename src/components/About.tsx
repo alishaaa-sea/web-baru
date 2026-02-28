@@ -15,11 +15,11 @@ export default function About() {
                             <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">Filosofi <span className="text-primary">Aksentuasi</span></h2>
                             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
                                 Dalam bahasa, <strong>Aksentuasi</strong> bermakna penegasan, penonjolan, atau pemberian aksen pada sesuatu yang dianggap penting. Aksentuasi merujuk pada menegaskan identitas, menonjolkan nilai esensial organisasi, serta
-memfokuskan kinerja pada hal-hal yang memberikan dampak nyata bagi mahasiswa matematika. 
+                                memfokuskan kinerja pada hal-hal yang memberikan dampak nyata bagi mahasiswa matematika.
                             </p>
                             <p className="text-slate-600 dark:text-slate-300">
                                 Kabinet ini hadir untuk memperkuat kualitas, memperjelas arah, dan mengangkat potensi setiap
-anggota agar keberadaan ASMAT semakin, relevan, berdaya, dan bermakna.
+                                anggota agar keberadaan ASMAT semakin relevan, berdaya, dan bermakna.
                             </p>
                         </div>
                     </div>

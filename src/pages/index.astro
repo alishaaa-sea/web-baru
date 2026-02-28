@@ -19,13 +19,10 @@ import Footer from '../components/Footer.tsx';
 		<Vision client:visible />
 		<Structure client:visible />
 
-		
-		<section id="programs" class="py-20 bg-white dark:bg-surface-dark">
-			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div class="flex flex-col md:flex-row gap-12">
-					<Programs client:visible />
-					<Gallery client:visible />
-				</div>
+		<section id="programs-gallery" class="py-20 bg-white dark:bg-surface-dark">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-12">
+				<Programs client:visible />
+				<Gallery client:visible />
 			</div>
 		</section>
 	</main>
