@@ -239,10 +239,11 @@ export default function Structure() {
                                 staffahli={[
                                     { name: "Khomsatul Yunita", img: "/img/foto nita.jpg" },
                                     { name: "Anni Miftahu Rohmah", img: "/img/foto anni.jpg" },
-                                    { name: "Habib Hayub Alfaraby", img: "/img/foto hayub.jpg" },
-                                    { name: "Intan Tama Jessica Purba", img: "/img/foto intan tama.jpg" }
+                                    { name: "Habib Hayub Alfaraby", img: "/img/foto hayub.jpg" }
+                                    
                                 ]}
                                 staffmuda={[
+                                    { name: "Intan Tama Jessica Purba", img: "/img/foto intan tama.jpg" }
                                     { name: "Jesika Traini Manurung", img: "/img/foto jesika.jpg" },
                                     { name: "Nadia Balqis", img: "/img/foto nadia.jpg" },
                                     { name: "Lusiana Kezia Arla Gracyani", img: "/img/foto lusiana.png" },
