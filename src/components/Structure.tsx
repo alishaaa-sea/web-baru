@@ -243,7 +243,7 @@ export default function Structure() {
                                     
                                 ]}
                                 staffmuda={[
-                                    { name: "Intan Tama Jessica Purba", img: "/img/foto intan tama.jpg" }
+                                    { name: "Intan Tama Jessica Purba", img: "/img/foto intan tama.jpg" },
                                     { name: "Jesika Traini Manurung", img: "/img/foto jesika.jpg" },
                                     { name: "Nadia Balqis", img: "/img/foto nadia.jpg" },
                                     { name: "Lusiana Kezia Arla Gracyani", img: "/img/foto lusiana.png" },
