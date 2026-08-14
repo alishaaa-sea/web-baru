@@ -1,8 +1,4 @@
-import {
-    Dialog,
-    DialogContent,
-    DialogTrigger,
-} from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 export default function Structure() {
     return (
@@ -23,11 +19,11 @@ export default function Structure() {
                                 <Dialog>
                                     <DialogTrigger asChild>
                                         <div className="w-40 h-40 rounded-full border-4 border-white dark:border-gray-800 shadow-lg overflow-hidden mb-4 cursor-pointer hover:scale-105 transition-transform">
-                                            <img alt="Alisha Rizki Ainiyah" className="w-full h-full object-cover" src="/img/Foto Formal.jpeg" />
+                                            <img alt="Alisha Rizki Ainiyah" className="w-full h-full object-cover" src="/img/alisha.jpg" />
                                         </div>
                                     </DialogTrigger>
                                     <DialogContent className="max-w-md bg-transparent border-none p-0 shadow-none">
-                                        <img alt="Alisha Rizki Ainiyah" className="w-full h-auto rounded-xl" src="/img/Foto Formal.jpeg" />
+                                        <img alt="Alisha Rizki Ainiyah" className="w-full h-auto rounded-xl" src="/img/alisha.jpg" />
                                     </DialogContent>
                                 </Dialog>
                                 <a href="https://instagram.com/alishaarzkii" target="_blank" rel="noopener noreferrer">
@@ -40,11 +36,11 @@ export default function Structure() {
                                 <Dialog>
                                     <DialogTrigger asChild>
                                         <div className="w-40 h-40 rounded-full border-4 border-white dark:border-gray-800 shadow-lg overflow-hidden mb-4 cursor-pointer hover:scale-105 transition-transform">
-                                            <img alt="Mutiara Annastasya" className="w-full h-full object-cover" src="/img/foto aca.jpeg" />
+                                            <img alt="Mutiara Annastasya" className="w-full h-full object-cover" src="/img/acha.jpg" />
                                         </div>
                                     </DialogTrigger>
                                     <DialogContent className="max-w-md bg-transparent border-none p-0 shadow-none">
-                                        <img alt="Mutiara Annastasya" className="w-full h-auto rounded-xl" src="/img/foto aca.jpeg" />
+                                        <img alt="Mutiara Annastasya" className="w-full h-auto rounded-xl" src="/img/acha.jpg" />
                                     </DialogContent>
                                 </Dialog>
                                 <h3 className="text-xl font-bold text-slate-900 dark:text-white">Mutiara Annastasya</h3>
@@ -74,11 +70,11 @@ export default function Structure() {
                                         <Dialog>
                                             <DialogTrigger asChild>
                                                 <div className="w-20 h-20 rounded-full border-2 border-primary/20 overflow-hidden mb-2 mx-auto cursor-pointer hover:scale-105 transition-transform">
-                                                    <img alt="Tri Maida Azzahra" className="w-full h-full object-cover" src="/img/foto maida.jpeg" />
+                                                    <img alt="Tri Maida Azzahra" className="w-full h-full object-cover" src="/img/maida.jpg" />
                                                 </div>
                                             </DialogTrigger>
                                             <DialogContent className="max-w-md bg-transparent border-none p-0 shadow-none">
-                                                <img alt="Tri Maida Azzahra" className="w-full h-auto rounded-xl" src="/img/foto maida.jpeg" />
+                                                <img alt="Tri Maida Azzahra" className="w-full h-auto rounded-xl" src="/img/maida.jpg" />
                                             </DialogContent>
                                         </Dialog>
                                         <p className="text-xs font-bold text-slate-800 dark:text-slate-200">Tri Maida Azzahra</p>
@@ -88,11 +84,11 @@ export default function Structure() {
                                         <Dialog>
                                             <DialogTrigger asChild>
                                                 <div className="w-20 h-20 rounded-full border-2 border-primary/20 overflow-hidden mb-2 mx-auto cursor-pointer hover:scale-105 transition-transform">
-                                                    <img alt="Azizah Rahma Yonita" className="w-full h-full object-cover" src="/img/foto zaza.jpg" />
+                                                    <img alt="Azizah Rahma Yonita" className="w-full h-full object-cover" src="/img/zaza.jpg" />
                                                 </div>
                                             </DialogTrigger>
                                             <DialogContent className="max-w-md bg-transparent border-none p-0 shadow-none">
-                                                <img alt="Azizah Rahma Yonita" className="w-full h-auto rounded-xl" src="/img/foto zaza.jpg" />
+                                                <img alt="Azizah Rahma Yonita" className="w-full h-auto rounded-xl" src="/img/zaza.jpg" />
                                             </DialogContent>
                                         </Dialog>
                                         <p className="text-xs font-bold text-slate-800 dark:text-slate-200">Azizah Rahma Yonita</p>
@@ -119,11 +115,11 @@ export default function Structure() {
                                         <Dialog>
                                             <DialogTrigger asChild>
                                                 <div className="w-20 h-20 rounded-full border-2 border-primary/20 overflow-hidden mb-2 mx-auto cursor-pointer hover:scale-105 transition-transform">
-                                                    <img alt="Rizqa Aulia" className="w-full h-full object-cover" src="/img/foto rizqa.jpeg" />
+                                                    <img alt="Rizqa Aulia" className="w-full h-full object-cover" src="/img/rizqa.jpg" />
                                                 </div>
                                             </DialogTrigger>
                                             <DialogContent className="max-w-md bg-transparent border-none p-0 shadow-none">
-                                                <img alt="Rizqa Aulia" className="w-full h-auto rounded-xl" src="/img/foto rizqa.jpeg" />
+                                                <img alt="Rizqa Aulia" className="w-full h-auto rounded-xl" src="/img/rizqa.jpg" />
                                             </DialogContent>
                                         </Dialog>
                                         <p className="text-xs font-bold text-slate-800 dark:text-slate-200">Rizqa Aulia</p>
@@ -133,11 +129,11 @@ export default function Structure() {
                                         <Dialog>
                                             <DialogTrigger asChild>
                                                 <div className="w-20 h-20 rounded-full border-2 border-primary/20 overflow-hidden mb-2 mx-auto cursor-pointer hover:scale-105 transition-transform">
-                                                    <img alt="Haura Rasicha Dzaky" className="w-full h-full object-cover" src="/img/foto haura.jpg" />
+                                                    <img alt="Haura Rasicha Dzaky" className="w-full h-full object-cover" src="/img/haura.jpg" />
                                                 </div>
                                             </DialogTrigger>
                                             <DialogContent className="max-w-md bg-transparent border-none p-0 shadow-none">
-                                                <img alt="Haura Rasicha Dzaky" className="w-full h-auto rounded-xl" src="/img/foto haura.jpg" />
+                                                <img alt="Haura Rasicha Dzaky" className="w-full h-auto rounded-xl" src="/img/haura.jpg" />
                                             </DialogContent>
                                         </Dialog>
                                         <p className="text-xs font-bold text-slate-800 dark:text-slate-200">Haura Rasicha Dzaky</p>
@@ -168,20 +164,20 @@ export default function Structure() {
                                 icon="menu_book"
                                 name="Akademik"
                                 description="Fokus pada peningkatan kualitas keilmuan dan kemampuan akademik mahasiswa matematika."
-                                ketua={{ name: "Mayla Nazid Nafi'a", img: "/img/foto mayla.jpeg" }}
+                                ketua={{ name: "Mayla Nazid Nafi'a", img: "/img/mayla.jpg" }}
                                 staff={[
-                                    { name: "M. Ishmatur Roziq", img: "/img/foto roziq.jpg" },
-                                    { name: "Faturohman Setia Budi", img: "/img/foto fatur.jpg" },
-                                    { name: "Lusita Safitri", img: "/img/foto lusi.jpg" },
-                                    { name: "Karolyn Alvani", img: "/img/foto karolyn.jpg" },
-                                    { name: "Muhammad Daniez Julio Darmawan", img: "/img/foto daniez.jpg" }
+                                    { name: "M. Ishmatur Roziq", img: "/img/roziq.jpg" },
+                                    { name: "Faturohman Setia Budi", img: "/img/fatur.jpg" },
+                                    { name: "Lusita Safitri", img: "/img/lusi.jpg" },
+                                    { name: "Karolyn Alvani", img: "/img/karolyn.jpg" },
+                                    { name: "Muhammad Daniez Julio Darmawan", img: "/img/daniez.jpg" }
                                 ]}
                                 staffmuda={[
-                                    { name: "Muhammad Fadel Arnanda", img: "/img/foto fadel.jpg" },
-                                    { name: "Muhammad Ihsan", img: "/img/foto ihsan.jpg" },
-                                    { name: "Ria Aulia", img: "/img/foto riaaulia.png" },
-                                    { name: "Yazid Gharis Fargani", img: "/img/foto yazid.jpeg" },
-                                    { name: "Erlinda Puspita Hapsari", img: "/img/foto erlinda.jpg" }
+                                    { name: "Muhammad Fadel Arnanda", img: "/img/fadel.jpg" },
+                                    { name: "Muhammad Ihsan", img: "/img/ihsan.jpg" },
+                                    { name: "Ria Aulia", img: "/img/riaaulia.jpg" },
+                                    { name: "Yazid Gharis Fargani", img: "/img/yazid.jpg" },
+                                    { name: "Erlinda Puspita Hapsari", img: "/img/erlinda.jpg" }
                                 ]}
                                 proker={["Asistensi Internal", "Asistensi Mata Kuliah", "Modul Soal"]}
                             />
@@ -191,19 +187,19 @@ export default function Structure() {
                                 icon="palette"
                                 name="Media Kreatif"
                                 description="Fokus dalam mengelola seluruh aspek publikasi, dokumentasi, dan kreativitas media di ASMAT."
-                                ketua={{ name: "Zulfa Friyaljihanisa", img: "/img/foto zulfa.png" }}
+                                ketua={{ name: "Zulfa Friyaljihanisa", img: "/img/zulfa.jpg" }}
                                 staffahli={[
-                                    { name: "Dara Mulia Ayundita", img: "/img/foto dara.jpg" },
-                                    { name: "Nawasyarifah", img: "/img/foto nawa.jpg" },
-                                    { name: "Helen Mareta Nauli", img: "/img/foto nauli.jpeg" }
+                                    { name: "Dara Mulia Ayundita", img: "/img/dara.jpg" },
+                                    { name: "Nawasyarifah", img: "/img/nawa.jpg" },
+                                    { name: "Helen Mareta Nauli", img: "/img/nauli.jpg" }
                                 ]}
                                 staffmuda={[
-                                    { name: "Rahma Fitrianita", img: "/img/foto rahma.jpg" },
-                                    { name: "Imelda Nuris Syifa", img: "/img/foto imelda.jpg" },
-                                    { name: "Moza Shifra Putri Hermawan", img: "/img/foto moza.jpg" },
-                                    { name: "Intan Pramestya Maya Daya", img: "/img/foto intan pram.png" },
-                                    { name: "Nuriska Putri Aulia", img: "/img/foto nuriska.jpg" },
-                                    { name: "Mutiara O. Sihombing", img: "/img/foto mutiara.jpg" }
+                                    { name: "Rahma Fitrianita", img: "/img/rahma.jpeg" },
+                                    { name: "Imelda Nuris Syifa", img: "/img/imelda.jpg" },
+                                    { name: "Moza Shifra Putri Hermawan", img: "/img/moza.jpg" },
+                                    { name: "Intan Pramestya Maya Daya", img: "/img/maya.jpeg" },
+                                    { name: "Nuriska Putri Aulia", img: "/img/nuriska.jpg" },
+                                    { name: "Mutiara O. Sihombing", img: "/img/mutiara.jpg" }
                                 ]}
                                 proker={["Buletin", "Majalah Dinding", "Media Sosial", "Pelatihan Desain Internal"]}
                             />
@@ -213,19 +209,19 @@ export default function Structure() {
                                 icon="trending_up"
                                 name="Pengembangan"
                                 description="Fokus pada peningkatan kapasitas dan minat mahasiswa serta perluasan kontribusi organisasi melalui pengabdian masyarakat."
-                                ketua={{ name: "Nazwa Syahrani", img: "/img/foto nazwa.jpeg" }}
+                                ketua={{ name: "Nazwa Syahrani", img: "/img/nazwa.jpg" }}
                                 staffahli={[
-                                    { name: "Nasywa Dhiya Ananfitto", img: "/img/foto nasywa.png" },
-                                    { name: "Amalia Mecca Zasaid", img: "/img/foto mecca.jpg" },
-                                    { name: "Aliah Mabruroh", img: "/img/foto aliah.JPG" },
-                                    { name: "Zhahra Bunga Tri Hapsari", img: "/img/foto zara.jpg" }
+                                    { name: "Nasywa Dhiya Ananfitto", img: "/img/nasywa.jpg" },
+                                    { name: "Amalia Mecca Zasaid", img: "/img/mecca.jpg" },
+                                    { name: "Aliah Mabruroh", img: "/img/aliah.jpg" },
+                                    { name: "Zhahra Bunga Tri Hapsari", img: "/img/zhahra.jpg" }
                                 ]}
                                 staffmuda={[
-                                    { name: "Lindi Alviolina Setiawan", img: "/img/foto lindi.jpg" },
-                                    { name: "Aulya Shalsabhila Eka Mustafa", img: "/img/foto aulya.jpg" },
-                                    { name: "Hepi Sasmita", img: "/img/foto hepi.jpg" },
-                                    { name: "Mujiono", img: "/img/foto jion.jpg" },
-                                    { name: "Raditya BAgaskara", img: "/img/foto radit.jpg" }
+                                    { name: "Lindi Alviolina Setiawan", img: "/img/lindi.jpg" },
+                                    { name: "Aulya Shalsabhila Eka Mustafa", img: "/img/aulya.jpg" },
+                                    { name: "Hepi Sasmita", img: "/img/hepi.jpg" },
+                                    { name: "Mujiono", img: "/img/jion.jpeg" },
+                                    { name: "Raditya BAgaskara", img: "/img/radit.jpg" }
                                 ]}
                                 proker={["Pelatihan Internal", "Klinik Matematika", "Seminar Skripsi", "Seminar PKL"]}
                             />
@@ -235,20 +231,20 @@ export default function Structure() {
                                 icon="science"
                                 name="Riset"
                                 description="Fokus pada pengembangan minat dan bakal riset mahasiswa melalui pelatihan, pendampingan, dan penyediaan ruang praktik riset."
-                                ketua={{ name: "Saskia Aulia Azzahra", img: "/img/foto saskia.jpeg" }}
+                                ketua={{ name: "Saskia Aulia Azzahra", img: "/img/saskia.jpg" }}
                                 staffahli={[
-                                    { name: "Khomsatul Yunita", img: "/img/foto nita.jpg" },
-                                    { name: "Anni Miftahu Rohmah", img: "/img/foto anni.jpg" },
-                                    { name: "Habib Hayub Alfaraby", img: "/img/foto hayub.jpg" }
+                                    { name: "Khomsatul Yunita", img: "/img/nita.jpg" },
+                                    { name: "Anni Miftahu Rohmah", img: "/img/anni.jpg" },
+                                    { name: "Habib Hayub Alfaraby", img: "/img/hayub.jpg" }
                                     
                                 ]}
                                 staffmuda={[
-                                    { name: "Intan Tama Jessica Purba", img: "/img/foto intan tama.jpg" },
-                                    { name: "Jesika Traini Manurung", img: "/img/foto jesika.jpg" },
-                                    { name: "Nadia Balqis", img: "/img/foto nadia.jpg" },
-                                    { name: "Lusiana Kezia Arla Gracyani", img: "/img/foto lusiana.png" },
-                                    { name: "Muhammad Yusuf Al Malik", img: "/img/foto yusuf.jpg" },
-                                    { name: "Muhammad Dani Hibatullah", img: "/img/foto dani.jpg" }
+                                    { name: "Intan Tama Jessica Purba", img: "/img/intantama.jpg" },
+                                    { name: "Jesika Traini Manurung", img: "/img/jesika.jpg" },
+                                    { name: "Nadia Balqis", img: "/img/nadia.jpg" },
+                                    { name: "Lusiana Kezia Arla Gracyani", img: "/img/kezia.jpg" },
+                                    { name: "Muhammad Yusuf Al Malik", img: "/img/yusuf.jpg" },
+                                    { name: "Muhammad Dani Hibatullah", img: "/img/dani.jpg" }
                                 ]}
                                 proker={["Kelas Riset", "Pelatihan Kakak Pembimbing", "Pelatihan PKM"]}
                             />
