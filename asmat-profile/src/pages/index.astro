@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.tsx';
+import Hero from '../components/Hero.tsx';
+import About from '../components/About.tsx';
+import Vision from '../components/Vision.tsx';
+import Structure from '../components/Structure.tsx';
+import Programs from '../components/Programs.tsx';
+import Gallery from '../components/Gallery.tsx';
+import Footer from '../components/Footer.tsx';
+---
+
+<Layout title="ASMAT AKSENTUASI 2026 Official Profile">
+	<Navbar client:load />
+	
+	<main class="overflow-hidden">
+		<Hero client:load />
+		<About client:visible />
+		<Vision client:visible />
+		<Structure client:visible />
+
+		<section id="programs-gallery" class="py-20 bg-white dark:bg-surface-dark">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-12">
+				<Programs client:visible />
+				<Gallery client:visible />
+			</div>
+		</section>
+	</main>
+	
+	<Footer />
+</Layout>
